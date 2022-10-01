@@ -4,8 +4,8 @@ surname: Marmont
 position: "Student (Master of Management, Economics)"
 phone: +64 21 0269 2180
 email: "BLMarmont@xtra.co.nz"
-github: https://github.com/BenMarmont
-linkedin: www.linkedin.com/in/ben-marmont
+github: BenMarmont
+linkedin: Ben-Marmont
 date: "`r format(Sys.time(), '%B %Y')`"
 output: vitae::moderncv
 ---
@@ -13,6 +13,7 @@ output: vitae::moderncv
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
 library(vitae)
+library(tidyverse)
 ```
 
 # Experience
@@ -34,20 +35,6 @@ After completing my undergraduate degree, I worked a term contract at this consu
  * R
  * Teamwork
  
-
-# Education
-
-```{r}
-library(tibble)
-tribble(
-  ~ Degree, ~ Year, ~ Institution, ~ Where,
-  "Informal studies", "1889-91", "Flying University", "Warsaw, Poland",
-  "Master of Physics", "1893", "Sorbonne Université", "Paris, France",
-  "Master of Mathematics", "1894", "Sorbonne Université", "Paris, France"
-) %>% 
-  detailed_entries(Degree, Year, Institution, Where)
-```
-
 # Education
 
 ```{r}
