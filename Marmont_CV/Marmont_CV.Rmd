@@ -1,7 +1,7 @@
 ---
 name: Benjamin    
 surname: Marmont
-position: "Student (Master of Management, Economics)"
+position: "Environmental Economist"
 phone: +64 21 0269 2180
 email: "BLMarmont@xtra.co.nz"
 github: BenMarmont
@@ -16,14 +16,41 @@ library(vitae)
 library(tidyverse)
 ```
 
-# Experience
+# Objective
+Upon completing my Master of Environmental Economics, I want to continue developing my skills and understanding of the levers and actions required to incentivise the behaviour change necessary for improving environmental outcomes. Some of the skills I value developing include; modelling, data analysis and communication.
 
- * INDUSTRY MASTER OF MANAGEMENT (ECONOMICS)• DAIRYNZ• 2021 – 2022
-While completing my postgraduate degree with the support of DairyNZ, I situate myself in their Newstead office during the week. This allows me to leverage available resources and relationships, such as conference attendance (Pasture Summit, NZIPIM, NZAE, NZARES), farm walks, presentations, expert consultations, and peer feedback. 
- * TEACHING AND RESEARCH ASSISTANT • UNIVERSITY OF WAIKATO • 2022 – 2022
-I assisted in the first ‘R for Data Science course of its type at this university for a semester. For most of the course, I was the sole assistant for a class of more than thirty students. After completing this course, I began working as a Research Assistant on converting an existing excel CBA into a general model in R.
- * ECONOMIC ANALYST • URBAN ECONOMICS • 2021 – 2021
-After completing my undergraduate degree, I worked a term contract at this consultancy, where I developed my analytical skills in a property economics application.
+# Experience
+```{r}
+tribble(
+  ~when, ~what,~with, ~why,
+  "2021-2022", "Industry Master of Management (Economics)", "DairyNZ", "While completing my postgraduate degree with the support of DairyNZ, I situate myself in their Newstead office during the week. This allows me to leverage those resources and relationships available to me, such as conference attendance (Pasture Summit, NZIPIM, NZAE, NZARES), farm walks, presentations, expert consultations, and peer feedback. By accepting such opportunities I have developed significant knowledge of the dairy industry and wider agricultural sector",
+  "2022", "Teaching and Research Assistant", "University of Waikato","I was a TA on the first ‘R for Data Science' course of its type at this university for a semester. I was the primary TA for a class of more than thirty students. After the completion of this course I began working as a Research Assistant working on converting an existing Excel case study CBA into a model adaptable for serveral case studies. This work was undetaken in R",
+  "2021", "Economic Analyst", "Urban Economics","After completing my undergraduate degree I worked a term contract at this consultancy, where I developed my analytical skills in a property economics application including extensive work on a gravity model of the retirement villages in Auckland"
+) %>% 
+  detailed_entries(
+   what, with,when,    
+   why)
+    
+    
+
+    # glue::glue("Degree in {Type}"),
+    
+```
+ \pagebreak
+# Education
+
+```{r}
+tribble(
+  ~Year, ~Type, ~Desc,
+  "2021-2022", "Master of Management (Economics)", "My research at the University of Waikato investigates a novel approach to methane mitigation in NZ’s dairy industry utilising in-paddock smart-feeders as a delivery mechanism for methane inhibitors. It contains two distinct pieces, the adoption diffusion of the approach throughout NZ’s dairy farming population and the approach’s economic performance in different scenarios. Each piece has modelling to quantify the issues at hand.",
+  "2018-2020", "Bachelor of Business (Economics)", "While studying at Massey, I majored in economics and minored in finance. During this time, I undertook an exchange to Purdue University in the United States to study agricultural economics, driven by a desire to study behavioural economics, which was not offered domestically at the time. During these studies I achieved a GPA of 7.4/9, my transcripts of Purdue and Massey can be provided upon request."
+) %>% 
+  brief_entries(
+    glue::glue("{Type}"),
+    Year, 
+    Desc
+  )
+```
 
 # Skills
 
@@ -35,32 +62,22 @@ After completing my undergraduate degree, I worked a term contract at this consu
  * R
  * Teamwork
  
-# Education
-
-```{r}
-tribble(
-  ~Year, ~Type, ~Desc,
-  2022, "Master of Management (Economics)", "My research investigates a novel approach to methane mitigation in NZ’s dairy industry utilising in-paddock smart-feeders as a delivery mechanism for methane inhibitors. It contains two distinct pieces, the adoption diffusion of the approach throughout NZ’s dairy farming population and the approach’s economic performance in different scenarios. Each piece has modelling to quantify the issues at hand.",
-  2020, "Bachelor of Business (Economics)", "While studying at Massey, I majored in economics and minored in finance. During this time, I undertook an exchange to Purdue University in the United States to study agricultural economics, driven by a desire to study behavioural economics, which was not offered domestically at the time."
-) %>% 
-  brief_entries(
-    glue::glue("Degree {Type}"),
-    Year, 
-    Desc
-  )
-```
-
 # Volunteer Experience
 
-Health and Safety Officer – University of Waikato Rugby Club.
-Treasurer of Massey University Student Enterprise.
-Secretary of Massey University Ultimate Frisbee Club.
-Secretary of Massey University Auckland Underwater Club.
+* Health and Safety Officer – University of Waikato Rugby Club.
+* Treasurer of Massey University Student Enterprise.
+* Secretary of Massey University Ultimate Frisbee Club.
+* Secretary of Massey University Auckland Underwater Club.
 
 # Achievements
-Recipient of the NZARES post-graduate award.
-Recipient of the Flower Agribusiness conference participation award (used to attend NZAE.)
-Recipient of the DairyNZ research masters scholarship.
-Recipient of the Fuji Xerox Global exchange scholarship.
-Recipient of the UHY Haines Norton business student scholarship.
+
+* NZARES post-graduate award.
+* Flower Agribusiness conference participation award.
+* DairyNZ research masters scholarship.
+* Fuji Xerox Global exchange scholarship.
+* UHY Haines Norton business student scholarship.
+
+# Hobbies
+
+Outside of work I love to get outdoors, be it playing a Rugby, Ultimate Frisbee, Freediving, Mountain Biking or Fishing. My enjoyment of the outdoors is a major driver for my passion of working in an area where I can improve environmental outcomes.
 
