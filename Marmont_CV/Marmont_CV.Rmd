@@ -6,8 +6,10 @@ phone: +64 21 0269 2180
 email: "BLMarmont@xtra.co.nz"
 github: BenMarmont
 linkedin: Ben-Marmont
+www: researchgate.net/profile/Ben-Marmont
 date: "`r format(Sys.time(), '%B %Y')`"
-output: vitae::moderncv
+output: vitae::hyndman
+
 ---
 
 ```{r setup, include=FALSE}
@@ -16,10 +18,18 @@ library(vitae)
 library(tidyverse)
 ```
 
+
+
 # Objective
+
+
 Upon completing my Master of Environmental Economics, I want to continue developing my skills and understanding of the levers and actions required to incentivise the behaviour change necessary for improving environmental outcomes. Some of the skills I value developing include; modelling, data analysis and communication.
 
+
+
 # Experience
+
+
 ```{r}
 tribble(
   ~when, ~what,~with, ~why,
@@ -36,8 +46,11 @@ tribble(
     # glue::glue("Degree in {Type}"),
     
 ```
- \pagebreak
+
+
+
 # Education
+
 
 ```{r}
 tribble(
@@ -52,7 +65,10 @@ tribble(
   )
 ```
 
+ \newpage
+ 
 # Skills
+
 
  * Problem Solving
  * Presentation
@@ -62,14 +78,20 @@ tribble(
  * R
  * Teamwork
  
+
+ 
 # Volunteer Experience
+
 
 * Health and Safety Officer – University of Waikato Rugby Club.
 * Treasurer of Massey University Student Enterprise.
 * Secretary of Massey University Ultimate Frisbee Club.
 * Secretary of Massey University Auckland Underwater Club.
 
+
+
 # Achievements
+
 
 * NZARES post-graduate award.
 * Flower Agribusiness conference participation award.
@@ -77,7 +99,10 @@ tribble(
 * Fuji Xerox Global exchange scholarship.
 * UHY Haines Norton business student scholarship.
 
+
+
 # Hobbies
+
 
 Outside of work I love to get outdoors, be it playing a Rugby, Ultimate Frisbee, Freediving, Mountain Biking or Fishing. My enjoyment of the outdoors is a major driver for my passion of working in an area where I can improve environmental outcomes.
 
