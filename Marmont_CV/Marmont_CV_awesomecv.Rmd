@@ -77,6 +77,7 @@ tribble(
     # Volunteer Experience
 
     </div>
+-   Early Career Representative on the council of the Agricultural and Resource Economics Society.    
 
 -   Health and Safety Officer -- University of Waikato Rugby Club.
 
