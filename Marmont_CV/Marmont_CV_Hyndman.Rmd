@@ -1,9 +1,9 @@
 ---
 name: Benjamin    
 surname: Marmont
-position: "Environmental Economist"
+position: "Economist"
 phone: +64 21 0269 2180
-email: "BLMarmont@xtra.co.nz"
+email: "BLMarmont@gmail.com"
 github: BenMarmont
 linkedin: Ben-Marmont
 www: researchgate.net/profile/Ben-Marmont
