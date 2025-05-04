@@ -1,0 +1,227 @@
+%% start of file `template.tex'.
+%% Copyright 2006-2015 Xavier Danaux (xdanaux@gmail.com).
+%
+% Adapted to be an Rmarkdown template by Mitchell O'Hara-Wild
+% 8 February 2019
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+
+\documentclass[11pt,a4paper,]{moderncv}
+
+% moderncv themes
+\moderncvstyle{casual}                             % style options are 'casual' (default), 'classic', 'banking', 'oldstyle' and 'fancy'
+
+\definecolor{color0}{rgb}{0,0,0}% black
+\definecolor{color1}{HTML}{3873B3}% custom
+\definecolor{color2}{rgb}{0.45,0.45,0.45}% dark grey
+
+\usepackage[scaled=0.86]{DejaVuSansMono}
+
+\providecommand{\tightlist}{%
+	\setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\def\donothing#1{#1}
+\def\emaillink#1{#1}
+
+%\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
+
+% character encoding
+%\usepackage[utf8]{inputenc}                       % if you are not using xelatex ou lualatex, replace by the encoding you are using
+%\usepackage{CJKutf8}                              % if you need to use CJK to typeset your resume in Chinese, Japanese or Korean
+
+% adjust the page margins
+\usepackage[scale=0.75,footskip=60pt]{geometry}
+%\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
+%\setlength{\makecvheadnamewidth}{10cm}            % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+
+
+
+% personal data
+\name{Benjamin}{Marmont}
+\title{Economist}
+
+
+\phone[mobile]{+64 21 0269 2180} % Phone number
+\email{\donothing{\href{mailto:BLMarmont@gmail.com}{\nolinkurl{BLMarmont@gmail.com}}}}
+\homepage{researchgate.net/profile/Ben-Marmont} % Personal website
+\social[linkedin]{Ben-Marmont}
+
+\social[github]{BenMarmont}
+
+
+
+% \extrainfo{additional information}                 % optional, remove / comment the line if not wanted
+
+
+
+
+% Pandoc CSL macros
+
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+%\begin{CJK*}{UTF8}{gbsn}                          % to typeset your resume in Chinese using CJK
+%-----       resume       ---------------------------------------------------------
+\makecvtitle
+
+
+
+\section{Objective}\label{objective}
+
+Following the completion of my Master's in Management (Economics) at the
+University of Waikato, I have honed my expertise as an Economist at
+DairyNZ, gaining valuable insights into Agricultural Economics, the
+Dairy sector, and related primary industries. My goal is to leverage and
+expand this expertise via a PhD, continuing to apply and enhance the
+skills and knowledge I have developed.
+
+\section{Experience}\label{experience}
+
+\subsection{Economist}\label{economist}
+
+\textbf{DairyNZ, 2023 - Present} \newline After completing my Masters at
+DairyNZ I transitioned into a role in their Economics team, where I was
+part of several pieces of work often spanning longer term research
+projects and shorter term commentary:
+
+\begin{itemize}
+\tightlist
+\item
+  Developing and deploying farm-level economic forecasts publicly
+  available on the
+  \href{https://connect.dairynz.co.nz/content/89ba1084-42c5-4786-882b-cc91b8016d05/}{DairyNZ
+  Econ Tracker}
+\item
+  Redeveloped code for two chapters of
+  \href{https://connect.dairynz.co.nz/2022-23_Dairy_Statistics/}{Dairy
+  Statistics} after the publication was transitioned from LIC to DairyNZ
+\item
+  Developed sector-wide, farm-level modelling and associated
+  cost-benefit analysis including iterative feedback from collaborators
+  for a business case
+\item
+  Lectured R for Data Science at the University of Waikato and tutored
+  an additional two iterations of the course
+\item
+  Published two papers from my Masters research {[}1,2{]}, with two more
+  since
+  {[}\href{https://www.researchgate.net/publication/388173097_Enabling_data_science_at_DairyNZ_with_Modern_Science_Workflows}{3},
+  4{]}
+\item
+  Delivered presentations to discussion groups and curiosity session,
+  with excellent feedback
+\end{itemize}
+
+\subsection{Economic Analyst}\label{economic-analyst}
+
+\textbf{Urban Economics, 2021} \newline
+
+I worked a term contract at this consultancy, where I developed my
+analytical skills in a property economics application including
+extensive work on a gravity model of the retirement villages in Auckland
+
+\section{Education}\label{education}
+
+\subsection{Master of Management (Economics, First Class
+Honours)}\label{master-of-management-economics-first-class-honours}
+
+\textbf{University of Waikato, 2018 - 2020}
+
+My research investigated a novel approach to methane mitigation in NZ's
+dairy industry utilising in-paddock smart-feeders as a delivery
+mechanism for methane inhibitors. It contains two distinct pieces, the
+adoption-diffusion of the approach throughout NZ's dairy farming
+population and the approach's economic performance in different
+scenarios. Each piece utilised modelling to quantify the approach.
+
+\subsection{Bachelor of Business (Economics,
+Finance)}\label{bachelor-of-business-economics-finance}
+
+\textbf{Massey University, 2021 - 2022}
+
+\begin{itemize}
+\tightlist
+\item
+  International exchange to Purdue University to study agricultural
+  economics driven by a desire to study behavioural economics, which was
+  not offered domestically at the time
+\item
+  Tutored undergraduate courses (Economics for Business and Finance
+  Fundamentals) of classes up sixty
+\item
+  Economics major
+\item
+  Finance minor
+\end{itemize}
+
+\section{Skills}\label{skills}
+
+\begin{itemize}
+\tightlist
+\item
+  Problem Solving
+\item
+  Presentation
+\item
+  Teamwork
+\item
+  Analytical thinking
+\item
+  Teaching
+\item
+  R Programming, GitHub, Data warehousing (Snowflake)
+\end{itemize}
+
+\section{Volunteer Experience}\label{volunteer-experience}
+
+\begin{itemize}
+\tightlist
+\item
+  Organiser and co-chair of the R Community
+\item
+  NZARES Early Career Representative to the federal AARES council
+\item
+  NZARES Board Member
+\item
+  Health and Safety Officer -- University of Waikato Rugby Club
+\item
+  Treasurer of Massey University Student Enterprise
+\item
+  Secretary of Massey University Ultimate Frisbee Club
+\item
+  Secretary of Massey University Auckland Underwater Club
+\end{itemize}
+
+\section{Achievements}\label{achievements}
+
+\begin{itemize}
+\tightlist
+\item
+  NZARES Post-graduate Conference Travel Award (NZARES, Nelson)
+\item
+  Flower Agribusiness Conference Travel Award (NZAE, Wellington)
+\item
+  DairyNZ Research Masters Scholarship
+\item
+  Fuji Xerox Global Exchange Scholarship
+\item
+  UHY Haines Norton Business Student Scholarship
+\end{itemize}
+
+\section{Interest}\label{interest}
+
+I love to get outdoors, be it playing, Ultimate Frisbee, Camping,
+Freediving, Mountain Biking or Fishing. My enjoyment of the outdoors was
+a major driver towards my move to the Waikato.
+
+
+\end{document}
+
+%\clearpage\end{CJK*}                              % if you are typesetting your resume in Chinese using CJK; the \clearpage is required for fancyhdr to work correctly with CJK, though it kills the page numbering by making \lastpage undefined
+\end{document}
+
+
+%% end of file `template.tex'.
